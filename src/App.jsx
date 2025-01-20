@@ -8,8 +8,6 @@ function App() {
 
   return (
     <div>
-      <h1> Site Test</h1>
-      <Link to="/PricePage">Prices</Link>
 
       <Routes>
         <Route path="" element={<Homepage />} />

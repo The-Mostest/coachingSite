@@ -1,4 +1,4 @@
-
+import { Link } from "react-router"
 
 
 const Homepage = () => {
@@ -7,8 +7,8 @@ const Homepage = () => {
         <div>
 
 
-            <h1> Details Page </h1>
-
+            <h1> Home Page </h1>
+            <Link to="/PricePage">Prices</Link>
 
 
 
