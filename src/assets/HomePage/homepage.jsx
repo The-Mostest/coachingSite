@@ -1,20 +1,13 @@
 
 
 
-const homepage = () => {
-
-
+const Homepage = () => {
 
     return (
         <div>
 
 
-            <h1> Site </h1>
-
-
-
-
-
+            <h1> Details Page </h1>
 
 
 
@@ -25,4 +18,4 @@ const homepage = () => {
     )
 }
 
-export default homepage
+export default Homepage
