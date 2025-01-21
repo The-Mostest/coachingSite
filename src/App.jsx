@@ -1,3 +1,5 @@
+import styles from './App.module.scss'
+
 import NavBar from "./assets/components/NavBar/NavBar"
 
 import Bio from "./assets/Pages/Bio/Bio"
@@ -12,11 +14,21 @@ function App() {
 
       <NavBar />
 
+      <div id='HomepageA'>
+        <Homepage id="HomepageA" />
+      </div>
 
-    <Homepage />
-      <Bio />
-      <Location />
-      <Contact />
+      <div id='BioA'>
+        <Bio />
+      </div>
+
+      <div id='LocationA'>
+        <Location />
+      </div>
+
+      <div id='ContactA'>
+        <Contact />
+      </div>
 
 
     </div>

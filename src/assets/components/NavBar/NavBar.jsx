@@ -12,7 +12,10 @@ const NavBar = () => {
                 <ul>
 
                     <li>
-                        <Link to="/">Home</Link>
+                        {/* <Link to="#HomepageA">Home</Link>
+                        <Link to="BioA">Bio</Link> */}
+                        <a href="#HomepageA">Homepage</a>
+                        <a href="#BioA">Bio</a>
                     </li>
 
 
