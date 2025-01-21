@@ -1,23 +1,25 @@
-import { Link } from "react-router"
-import './NavBar.scss'
+import styles from './NavBar.module.scss'
 
 const NavBar = () => {
 
 
     return (
 
-        <div>
+        <div className={styles.navs}>
+
+        <div className={styles.logo
+
+        }>
+        </div>
+
 
             <nav>
                 <ul>
 
-                    <li>
-                        {/* <Link to="#HomepageA">Home</Link>
-                        <Link to="BioA">Bio</Link> */}
-                        <a href="#HomepageA">Homepage</a>
-                        <a href="#BioA">Bio</a>
-                    </li>
-
+                    <li><a href="#HomepageA">Homepage</a></li>
+                    <li><a href="#BioA">Bio</a></li>
+                    <li><a href="#LocationA">Location</a></li>
+                    <li><a href="#ContactA" id='contactLi'>Contact</a></li>
 
                 </ul>
             </nav>

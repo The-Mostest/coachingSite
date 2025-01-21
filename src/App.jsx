@@ -1,5 +1,3 @@
-import styles from './App.module.scss'
-
 import NavBar from "./assets/components/NavBar/NavBar"
 
 import Bio from "./assets/Pages/Bio/Bio"
