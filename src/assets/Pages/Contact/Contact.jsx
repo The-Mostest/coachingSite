@@ -1,9 +1,10 @@
+import styles from './Contact.module.scss'
 
 
 const Contact = () => {
 
     return (
-        <div>
+         <div className={styles.contact}>
 
         <h1> Contact </h1>
 

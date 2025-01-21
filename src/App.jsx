@@ -1,11 +1,9 @@
-
-
-import Homepage from "./assets/Pages/HomePage/homepage"
-import Bio from "./assets/Pages/Bio/Bio"
-
 import NavBar from "./assets/components/NavBar/NavBar"
+
+import Bio from "./assets/Pages/Bio/Bio"
 import Contact from "./assets/Pages/Contact/Contact"
 import Location from "./assets/Pages/Location/Location"
+import Homepage from "./assets/Pages/HomePage/HomePage"
 
 function App() {
 
@@ -15,7 +13,7 @@ function App() {
       <NavBar />
 
 
-      <Homepage />
+    <Homepage />
       <Bio />
       <Location />
       <Contact />

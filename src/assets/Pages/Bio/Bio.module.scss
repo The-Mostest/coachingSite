@@ -1,1 +1,8 @@
 @use '../../screen';
+
+.bio {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-type: mandatory;
+
+}

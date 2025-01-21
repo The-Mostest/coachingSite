@@ -1,9 +1,11 @@
 
-import './Bio.module.scss'
+import styles from './Bio.module.scss'
+
+
 const Bio = () => {
 
     return (
-        <div>
+        <div className={styles.bio}>
 
         <h1> Bio </h1>
 

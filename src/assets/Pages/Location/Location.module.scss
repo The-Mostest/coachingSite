@@ -1,0 +1,8 @@
+@use '../../screen';
+
+.location {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-type: mandatory;
+
+}
