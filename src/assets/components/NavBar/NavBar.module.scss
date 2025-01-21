@@ -1,7 +1,7 @@
 body {
     
     .navs {
-        width: 100vw;
+        width: 100%;
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -20,7 +20,7 @@ body {
 
         nav {
             text-align: center;
-            width: 25vw;
+            width: 25%;
             align-content: center;
 
             ul {
@@ -40,7 +40,7 @@ body {
 
 
 
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         nav {
             display: none;
         }
